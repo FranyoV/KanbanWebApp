@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MyApp {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(240, 187, 237);
+    align-items: center;
+}
+
+.button{
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+#page {
+    background-color: rgb(202, 196, 245);
+}
+
+.drag-n-drop {
+    background-color: rgb(245, 245, 196);
+}
+
+.header {
+
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.group-title {
+    font-size: 1.5rem;
+    font-weight:800;
+    padding-top: 1rem
+}
+
+.newCardButton {
+    margin-left: 3rem;
+}
+
+.grid.container {
+    display: grid;
+    min-height: 100rem;
+    min-width: 100rem;
+}
+
+.dnd-item {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-header{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+
+.card-title{
+    margin-top:0.5rem;
+}
+.card-prior {
+    text-align: left;
+}
+
+.card-body {
+    text-align: left;
+    margin: .5rem;
+    padding: 0;
+}
+
+.modal {
+    background-color: darkseagreen;
+}
+
+.addButton{
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.title{
+    text-align: center;
+ 
+    padding-left: .5rem;
+    margin-left: 1rem;
+}
