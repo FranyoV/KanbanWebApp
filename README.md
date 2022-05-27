@@ -90,7 +90,7 @@ További használt package-ek:
 
 A fent említett packageket a projekthez adhatjuk parancssorból vagy akár a solution alatt található "npm install" funkció segítségével.
 
-#### Használt segéletek:
+#### Használt segédletek:
 -Stackoverflow
 
 -Az backend alapjának legenerálásához használt útmutató a megtalálható a docs.microsoft.com-on "Create ans ASP.NET Core app with React in Visual Studio' név alatt.
