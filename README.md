@@ -17,7 +17,7 @@ Minden teendő fejlécében 4 gomb található, amellyel a teendők tulajdonság
 
 <ins>Szerkesztés:</ins> A ceruza ikonnal ellátott gomb megnyomásával a teendő cím, leírás, státusz és határidő tulajdonságának szerkesztéséhez használható funkció.
 
-<ins>Oszlopon belüli fel-le mozgatás:</ins> A teendők megjelenításánek és tárolásának sorrendjét a felfelé és lefelé mutató nyilakkal ellátott gombok használatával 
+<ins>Oszlopon belüli fel-le mozgatás:</ins> A teendők megjelenítésének és tárolásának sorrendjét a felfelé és lefelé mutató nyilakkal ellátott gombok használatával 
 tudjuk végbe vinni. 
 
 Oszlopokba a teendők státuszaik szerint a vannak sorolva. Minden oszlophoz az annak a tetején lévő plusz ikonnal ellátott gomb segítségével tudunk új 
@@ -33,8 +33,8 @@ React alapú, böngészőben megjelenő user interface.
 
 <ins>App.js:</ins> betölti az adatokat a backendről és áttadja azokat a Board-nak.
 
-<ins>Board.js:</ins> A tábla felépítéért felelős, tartalmazza a CRUD műveleteket és a hozzájuk tartozó API hívásokat. 
-       Egy kétdimenziós listában tárolt teendők adait CardComponensekként jeleníti meg.
+<ins>Board.js:</ins> A tábla felépítésért felelős, tartalmazza a CRUD műveleteket és a hozzájuk tartozó API hívásokat. 
+       Egy két dimenziós listában tárolt teendők adatait CardComponensekként jeleníti meg.
        
 <ins>CardComponent.js:</ins> Egy teendő komponense.
 
@@ -64,9 +64,9 @@ SQL adatbázisra épülő ASP.NET Core keretrendszerrel valósul meg.
 Végpontok:
 
 GET: api/TodoItems: Visszaadja az összes teendőt, prioritás szerinti növekvő sorrendben.
-GET: api/TodoItems/{id}: Visszad az adott ID-hez tartozó teendőt az adatbázisból.
-PUT: api/TodoItems/{id}: Módosítást végez az adott ID-hez tartozó Todo elemen.
-PUT: api/TodoItems/Columns/{index}: Az adott indexhoz tartozó oszlop összes elemét frissíti.
+GET: api/TodoItems/{id}: Visszad az adott id-hez tartozó teendőt az adatbázisból.
+PUT: api/TodoItems/{id}: Módosítást végez az adott id-hez tartozó Todo elemen.
+PUT: api/TodoItems/Columns/{id}: Az adott id-hoz tartozó oszlop összes elemét frissíti.
 POST: api/TodoItems: Hozzáad egy új teendőt az adatbázishoz.
 DELETE: api/TodoItems/{id}: Törli a megadott id-hez tartozó teendőt az adatbázisból.
 
